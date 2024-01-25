@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lunasima&display=swap" rel="stylesheet" />
+    <title>Elias Rivers Photography</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsiveUI.css">
+  </head>
+  <body id="body">
+    <header class="header">
+      <h1 class="logo">ER</h1>
+      <div id="menu" class="menu-icon">
+        <!-- <i class="menu fa-solid fa-ellipsis"></i> -->
+        <div class="round"></div>
+        <div class="round"></div>
+        <div class="round"></div>
+      </div>
+      <nav class="nav-list">
+        <ul class="list">
+          <li><a href="/">Home</a></li>
+          <li><a href="#about">About</li>
+          <li><a href="photos.html">Photos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="menu-list">
+      <div id="close">
+        <i class="close fa-solid fa-xmark"></i>
+      </div>
+      <ul id="list">
+        <li><a href="/">Home</a></li>
+        <li><a href="#about">About</li>
+        <li><a href="photos.html">Photos</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a id="change" href="#">Change Background</a></li>
+      </ul>
+    </section>
+
+    <section class="show-case">
+      <div id="showCaseContext" class="context">
+        <h2>Elias Rivers Photography</h2>
+        <a href="#about"><button id="learnMoreBtn">Learn More</button></a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-header">
+        <h3 class="sub-header">About</h3>
+        <h3>About</h3>
+      </div>
+      <p id="para">Elias Rivers is a highly talented photographer renowned for his unique and captivating visual style. With a keen eye for detail and a passion for storytelling, he artfully captures moments that evoke profound emotions. Through his lens, Elias crafts images that leave a lasting impression, earning him widespread acclaim in the world of photography.</p>
+      <a href="#contact"><button id="contactBtn">Contact</button></a>
+    </section>
+
+    <section id="photo" class="photo">
+      <div class="photo-header">
+        <h3 class="sub-header">Photos</h3>
+        <h3>Photos</h3>
+      </div>
+      <div class="gallery">
+        <img src="./placeholder.jpg" alt="">
+        <img src="./placeholder.jpg" alt="">
+        <img src="./placeholder.jpg" alt="">
+        <img src="./placeholder.jpg" alt="">
+        <img src="./placeholder.jpg" alt="">
+      </div>    
+      <a href="/photos.html">
+      <button id="moreBtn" class="view-more-btn">
+        View More
+      </button>
+      </a>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-header">
+        <h3 class="sub-header">Contact</h3>
+        <h3>Contact</h3>
+      </div>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, esse</p>
+      <form>
+        <input type="text" placeholder="Enter Name" />
+        <input type="email" placeholder="Enter Email" />
+        <textarea placeholder="Enter Message"></textarea>
+        <button id="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; Elias Rivers Photography</p>
+      <div class="icons">
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <i class="icon fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+        </a>
+      </div>
+      <p>Development By <a href="https://mosheperl.com/" target="_blank">Moshe Perl</a></p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/b58794c0ab.js" crossorigin="anonymous"></script>
+  </body>
+</html>
+

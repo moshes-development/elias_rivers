@@ -1,0 +1,58 @@
+@media screen and (min-width: 800px) {
+  .header .menu-icon {
+    display: none;
+  }
+  .header .nav-list {
+    display: flex;
+  }
+  .photo {
+    padding: 100px 50px;
+  }
+  .photo .gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 45px;
+  }
+  .photo .gallery img {
+    width: 100%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 650px) {
+  .photo {
+    padding: 100px 125px 0 125px;
+  }
+  .about {
+    padding: 100px 125px 0 125px;
+  }
+  .contact {
+    padding: 100px 125px;
+  }
+}
+@media screen and (min-width: 790px) {
+  .photo {
+    padding: 100px 135px 0 135px;
+  }
+  .about {
+    padding: 100px 135px 0 135px;
+  }
+  .contact {
+    padding: 100px 135px 0 135px;
+  }
+}
+@media screen and (min-width: 830px) {
+  .contact {
+    padding: 150px 125px 0 125px;
+  }
+}
+@media screen and (min-width: 935px) {
+  .about {
+    padding: 175px 30% 0 30%;
+  }
+  .photo {
+    padding: 175px 30% 0 30%;
+  }
+  .contact {
+    padding: 175px 30%;
+  }
+}/*# sourceMappingURL=responsiveUI.css.map */

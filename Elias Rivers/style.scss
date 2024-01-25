@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lunasima', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: white;
+  color: black;
+  h1 {
+    letter-spacing: 10px;
+  }
+  .menu {
+    width: 30px;
+    height: 30px;
+  }
+  .menu:hover {
+    color: red;
+  }
+  .nav-list {
+    display: none;
+    .list {
+      display: flex;
+      li {
+        list-style: none;
+        padding-right: 30px;
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+  }
+
+  .menu-icon {
+    display: flex;
+    .round {
+      width: 8px;
+      height: 8px;
+      background-color: black;
+      border-radius: 50px;
+      margin-right: 3px;
+    }
+  }
+}
+
+.menu-list {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 0;
+  background-color: white;
+  z-index: 9999;
+  border-left: solid 3px lightgrey;
+  transition: ease-in-out 1s;
+  .close {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+  }
+  ul {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    li {
+      text-align: center;
+      list-style: none;
+      margin-top: 50px;
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.show-case {
+  background-image: url('./holizontal.jpg');
+
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .context {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+    padding-top: 57px;
+    button {
+      padding: 10px 25px;
+      margin-top: 20px;
+      background-color: white;
+      border: none;
+    }
+  }
+}
+
+.about {
+  padding: 100px 50px 0 50px;
+  .about-header {
+    position: relative;
+    h3 {
+      font-size: 30px;
+      padding: 15px 0;
+    }
+    .sub-header {
+      position: absolute;
+      color: rgba(0, 0, 0, 0.129);
+      font-size: 50px;
+      bottom: 0;
+    }
+  }
+  p {
+    font-size: 20px;
+    text-align: justify;
+    // opacity: 0.3;
+    // padding-top: 50px;
+    // transition: ease-in-out 1.3s;
+  }
+  button {
+    padding: 10px 25px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+  }
+}
+
+.photo {
+  padding: 100px 50px 0 50px;
+  .photo-header {
+    position: relative;
+    h3 {
+      font-size: 30px;
+      padding: 15px 0;
+    }
+    .sub-header {
+      position: absolute;
+      color: rgba(0, 0, 0, 0.129);
+      font-size: 50px;
+      bottom: 0;
+    }
+  }
+  p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  .gallery {
+    img {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+  .view-more-btn {
+    padding: 10px 25px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+  }
+}
+
+.contact {
+  padding: 100px 50px;
+  .contact-header {
+    position: relative;
+    h3 {
+      font-size: 30px;
+      padding: 15px 0;
+    }
+    .sub-header {
+      position: absolute;
+      color: rgba(0, 0, 0, 0.129);
+      font-size: 50px;
+      bottom: 0;
+    }
+  }
+  p {
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  input {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    height: 200px;
+    font-family: 'Lunasima', sans-serif;
+  }
+  button {
+    padding: 10px 25px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: solid 1px black;
+  }
+}
+
+footer {
+  background-color: black;
+  padding: 25px;
+  text-align: center;
+  p {
+    color: white;
+    margin: 10px;
+  }
+  a {
+    color: white;
+  }
+  .icons {
+    margin: 30px;
+    .icon {
+      margin: 5px;
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
